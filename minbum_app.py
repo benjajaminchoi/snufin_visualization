@@ -1,12 +1,3 @@
-import subprocess
-
-try:
-    import yfinance
-except ImportError:
-    subprocess.run(["pip", "install", "yfinance"])
-    import yfinance
-
-
 import streamlit as st
 import yfinance as yf
 import plotly.graph_objects as go
